@@ -1,0 +1,14 @@
+##POST a new blog
+POST http://localhost:3003/api/blogs
+
+Content-Type: application/json
+{
+  "title": "Genocide Joe",
+  "author": "Abdelrahim ElBahari",
+  "url": "http://operaciontriunfo.com",
+  "likes": 0,
+  "comments": "zionists R just a bunch of pussies"
+}
+
+## GET all blogs
+GET http://localhost:3003/api/blogs
